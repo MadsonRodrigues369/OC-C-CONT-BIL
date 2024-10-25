@@ -1,0 +1,196 @@
+* {
+
+    margin: 5px;
+    font-family: "inter";
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 0px;   
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#menu-superior{
+    margin-left: 200px;
+    margin-top: 0px;
+    padding-bottom: 150px;
+
+}
+
+#nome_OC_logo{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: #f0f8ff;
+    font-size: 65px;
+    style: "Victoriand";
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-bottom: 300px;
+
+}
+
+#menusuperior{
+    background-image: url(IMAGENS/Capa_xadrez_preto.svg);
+    color: aliceblue;    
+        
+}
+
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    grid-template-columns: ;
+}
+
+.ÍCONES{    
+    padding: 10px;
+    margin: 10px 0px 80px 0px;    
+    cursor: pointer;  
+    
+}
+
+.ÍCONES:hover{    
+    transform: translateY(-7px);
+    transition-duration: 0.5s ;
+    transform: scale(1.2);
+    box-shadow: 0 15px  15px rgba(4, 134, 209, 0.6);   
+    
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color:#247BA0;
+    margin-top: 50px;
+    align: center;
+    columns: auto;
+    
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+    border-radius: 12px;    
+}
+
+#video:hover{   
+    transition-duration: 0.5s ;
+    transform: scale(1.1);
+    box-shadow: 0 15px  15px rgba(4, 134, 209, 0.6);
+    cursor: pointer;
+}
+
+#carrossel{
+    background-color:#247BA0;         
+    margin: 1px 10px 10px 10px;      
+}
+
+#titulocarrossel{
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 25px;    
+}
+
+.div-cards{    
+    margin-bottom: 10px;
+    margin-top: 100px;
+    align-items: center;
+    grid-auto-flow: column;
+    justify-content:center;
+}
+
+
+
+.card:hover{    
+    transform: translateY(-7px);
+    transition-duration: 0.5s ;
+    transform:scale(1.1);
+    box-shadow: 0 15px  15px rgba(11, 61, 68, 0.6);
+    cursor: pointer;
+}
+
+
+#seta-esquerda{
+    display: none;
+}
+
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: scale(1.4);
+    transition-duration: 0.5s ;
+    box-shadow: color( green);    
+}
+
+#formulario{
+    text-align: center;
+    }
+
+#tituloformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 413px;
+    height: 35px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #a09797;
+    transition-duration: 0.5s;
+}
+
+#imagem_Capa_gera_valor{
+    margin: 50px 25px 50px 100px;
+    border-radius: 12px; 
+}
