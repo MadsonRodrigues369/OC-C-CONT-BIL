@@ -1,0 +1,85 @@
+
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>OC+C | Adm + Contábil</title>
+</head>
+<body>
+    <!-- MENU SUPERIOR LOGO E LINK HOME-PAGE-->
+    <div id="menusuperior" id="logo" ><br>
+        <h1 id="nome_OC_logo" src="" > OC+C 
+        </h1>
+ 
+        <h1 id="menu-superior">Por trás de cada sucesso, há um excelente  <br>--Administrador-- <br></h1>
+        <p id="texto-menusuperior">
+            Cuidamos da sua vida fiscal como se fosse a nossa! <br>  </p>
+
+    </div>
+    <!-- MENU INFORMACIONAL-->
+    <div id="menuinformacional">
+        <P id="Leão_azul" class="textoinformativo"><img src="ÍCONES/Leão_azul.png " class="ÍCONES" id="certificado" alt=""> Malha fina</P>      
+        <p class="textoinformativo"><img src="ÍCONES/Calculadora.png" class="ÍCONES" id="relógio" alt=""> Cálculos trabalhistas</p>    
+        <p class="textoinformativo"><img src="ÍCONES/Martelo_e_caderno.png" class="ÍCONES" id="relógio" alt=""> Orientação trabalhista</p>        
+        <P class="textoinformativo"><img src="ÍCONES/Abertura_MEI.png" class="ÍCONES" id="câmera" alt=""> Abertura, declaração e encerramento de MEI</P>
+        <P class="textoinformativo"><img src="ÍCONES/CPF.png" class="ÍCONES" id="câmera" alt=""> Pendências  no <br> CPF <br> junto à Receita Federal</P>
+        <P class="textoinformativo"><img src="ÍCONES/Imposto_de_renda.png" class="ÍCONES" id="câmera" alt=""> Declaração de imposto de renda</P>
+        
+    </div>
+
+    <!-- SEÇÃO VÍDEO E CAPA DO VÍDEO-->
+    <div id="secaovideo">
+        <video  id="video" poster="./IMAGENS/Capa_video.png" src="./Videos/video_oc_contabil.mp4"    width="602" height="383" controls="controls" title="Vídeo Contabilidade player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></video>
+            
+        
+        <div>
+            <h1 id="titulovideo"><br>
+                Conte com especialistas<br> da área financeira
+                e fiscal,<br> e tenha o controle na mão!<br>
+            </h1>
+            <p id="textovideo"><br>
+                Conheça nossos serviços administrativos<br> e fiscais e entenda também como utilizar <br>
+                e solucionar as principais responsabilidades<br> fiscais, fazendo crescer sua vida fiscal,<br> financeira e no seu negócio.    
+                
+            </p>
+            
+       </div>
+       <img id="imagem_Capa_gera_valor" src="./IMAGENS/Capa_gera_valor.png" width="602" height="383" ></img>
+    </div>
+       <!-- DIV VÁRIOS CLIENTES CARROSSEL-->
+       <div id="carrossel"><br>
+            <h1 id="titulocarrossel">Vários clientes já atendidos e parcerias consolidadas no mercado!</h1><br>
+            <!-- DIV SERVIÇOS - CARDS-->
+            <div id="div-cards">
+                <img  id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="ÍCONES/seta-esquerda.svg" alt="" >            
+                <img  id="seta-esquerda" class="seta" src="ÍCONES/seta-direita.svg" alt="" >
+                <img  id="seta-esquerda" class="seta" src="ÍCONES/seta-esquerda.svg" alt="" >                
+                <img  id="leonardo" class="card" src="CARDS/leonardo.svg" alt="">
+                <img  id="samantha"  class="card" src="CARDS/samantha.svg" alt="">
+                <img  id="bruna" class="card" src="CARDS/bruna.svg" alt="">            
+                <img  id="seta-direita" onclick="RolarParaDireita()" class="seta" src="ÍCONES/seta-direita.svg" alt="" >
+                
+           </div>
+       </div>
+       <!-- FORMULÁRIO -->
+       <div id="formulario">
+        <h1 id="tituloformulario">Conheça nossos serviços agora mesmo, entre em contato!</h1>
+        <form action="https://api.sheetmonkey.io/form/4iArUBz5LYDYpksUE6FpCH" method="post">
+            <input type="text" placeholder="Nome" name="Nome" required> <br>
+            <input type="email" placeholder="E-mail" name="E-mail" required> <br>
+            <input type="number" placeholder="Telefone" name="phone"> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
+            <button type="submit">Entrar em contato!</button>
+
+        </form>
+       </div>
+
+       <script src="index.js"></script>
+
+</body>
+</html>
